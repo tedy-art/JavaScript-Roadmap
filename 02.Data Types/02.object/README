@@ -1,0 +1,17 @@
+Object:
+    In js, almost everything is an Object.
+
+2.1. JavaScript Object properties
+    Properties are the values associated with a JavaScript object.
+    A JavaScript object is a collection of unordered properties.
+    Properties can usually be changed, added, and deleted, but some are read only.
+
+2.1.1 Accessing JavaScript Properties
+    The syntax for accessing the property of an object is:
+        objectName.property      // person.age
+        
+    or
+        objectName["property"]   // person["age"]
+
+    or
+        objectName[expression]   // x = "age"; person[x]
