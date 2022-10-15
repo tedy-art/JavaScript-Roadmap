@@ -1,0 +1,31 @@
+Variables Scope:
+    1) Block Scope
+    2) Function Scope
+    3) Global Scope
+
+1) Block Scope:
+    Before ES6(2015), JS had only Global and Function Scopes.
+    ES6 introduced two important new JavaScript keywords: let and const.
+    These two kwywords provide Block Scope in JavaScript.
+
+    Variables declared inside a {} Block cannot be accessed fro, outside the Block:
+    
+    Ex. let keyword
+    {
+        let x = 2;
+    }
+    // xcan NOT be used here
+    console.log(x) //error
+
+
+    var keyword:
+    Variables declared with the var keyword can NOT have Block Scope.
+
+    Variables declared inside a {} Block can be accessed the from outside the Block.
+
+    Ex. var keyword:
+    {
+        var x = 2;
+    }
+    //x CAN be used here
+    console.log(x);
