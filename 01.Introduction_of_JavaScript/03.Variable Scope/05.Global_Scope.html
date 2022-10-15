@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScript Scopes</h2>
+        <p>A Global Variable can be accessed from only any script or function</p>
+        <p id="demo"></p>
+        <script>
+            let carName = "volvo";
+            myFunction();
+            function myFunction(){
+                document.getElementById("demo").innerHTML = "I can display "+ carName;
+            }
+        </script>
+    </body>
+</html>
