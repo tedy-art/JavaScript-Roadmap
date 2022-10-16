@@ -15,3 +15,23 @@ Object:
 
     or
         objectName[expression]   // x = "age"; person[x]
+
+
+2.1.2. Javascript for...in loop:
+    The JS for..in statement loops through the properties of an object.
+    Syntax:
+    for (let variable in object){
+        //code to be executed
+    }
+
+    The block of code inside of the for...in loop will be executed once for each property.
+
+    Ex. Looping thrugh the properties of an object.
+    const person={
+        fname = "John",
+        lname = "Doe",
+        age = 25
+    };
+    for(let x in person){
+        txt t = person[x]
+    }
