@@ -35,3 +35,10 @@ Object:
     for(let x in person){
         txt t = person[x]
     }
+
+
+2.1.3. Adding new properties
+    you can add new properties to an existing object by simply giving it a value.
+
+    Assume that the person object already exists you can then give it new properties:
+    

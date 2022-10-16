@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScrpit objeect properties:</h2>
+        <p>Add a new properties to an existing object:--></p>
+        
+        <p id="demo"> </p>
+
+        <script>
+            const person = {
+                firstName : "john",
+                lastName : "Doe",
+                agr : 50,
+                eyecolor : "blue"
+            };
+            person.nationality = "English";
+            document.getElementById("demo").innerHTML = person.firstName + " is "+person.nationality + ".";
+        </script>
+
+    </body>
+</html>
