@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>JavaScript object</h2>
+        <p>Accessing nested object: </p>
+        <p id="demo"></p>
+        <script>
+            const myObj={
+                name : "John",
+                age : 50,
+                cars : {
+                    car1 : "Ford",
+                    car2 : "BMW",
+                    car3 : "Fiat"
+                }
+            }
+            document.getElementById("demo").innerHTML = myObj.cars["car2"];
+        </script>
+    </body>
+</html>
